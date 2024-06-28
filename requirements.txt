@@ -3,3 +3,7 @@ langchain_openai
 langchain_community
 streamlit
 python-dotenv
+langserv
+fastapi
+uvicorn
+sse_starlette
