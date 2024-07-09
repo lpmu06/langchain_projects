@@ -17,7 +17,6 @@ os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
 os.environ["LANGCHAIN_ENDPOINT"]="https://api.smith.langchain.com"
 
 ## Prompt Template
-
 prompt=ChatPromptTemplate.from_messages(
     [
         ("system","You are a helpful assistant. Please response to the user queries"),
@@ -26,7 +25,6 @@ prompt=ChatPromptTemplate.from_messages(
 )
 
 ## streamlit framework
-
 st.title('Langchain Demo With OPENAI API')
 input_text=st.text_input("Search the topic u want")
 
